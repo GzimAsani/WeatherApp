@@ -34,19 +34,30 @@ class UI {
       background.classList.add('red')
       background.classList.remove('blue')
     }    
+
+    this.fahrenheit.addEventListener('click', (e) => {
+      this.string2.classList.remove('no-display');
+      this.string.classList.add('no-display')
+    })
+
+    this.celcius.addEventListener('click', (e) => {
+      this.string2.classList.add('no-display');
+      this.string.classList.remove('no-display')
+    })
+
   }
-  
+
 }
 export default UI
 
 
 
-function toggleStatus(status) {
-  if (status.target.classList.contains('status')) {
-    if (status.target.textContent === 'Done!') {
-      status.target.textContent = 'Not yet!';
-    } else {
-      status.target.textContent = 'Done!';
-    }
-  }
-}
+// function toggleStatus(status) {
+//   if (status.target.classList.contains('status')) {
+//     if (status.target.textContent === 'Done!') {
+//       status.target.textContent = 'Not yet!';
+//     } else {
+//       status.target.textContent = 'Done!';
+//     }
+//   }
+// }
