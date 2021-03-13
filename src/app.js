@@ -1,8 +1,11 @@
 import Weather from './weather'
 import UI from './ui'
+import Storage from './storage'
 
 
-const weather = new Weather('Boston');
+const storage = new Storage();
+const weatherLocation = storage.getLocationData();
+const weather = new Weather(weatherLocation.city);
 
 
 const ui = new UI()

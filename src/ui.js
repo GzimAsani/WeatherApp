@@ -11,6 +11,7 @@ class UI {
     this.maxTemp = document.getElementById('w-maxtemp');
     this.pressure = document.getElementById('w-pressure');
     this.wind = document.getElementById('w-wind');
+    this.background = document.getElementById('background')
   }
 
   paint(weather) {
@@ -23,6 +24,9 @@ class UI {
     this.pressure.textContent = `Pressure Level: ${weather.main.pressure}`;
     this.wind.textContent = `Wind Speed: ${weather.wind.speed} m/s`;
 
+    if(weather.main.temp > 10){
+      this.background.add.className('text-primary')
+    }
   }
 }
 export default UI
