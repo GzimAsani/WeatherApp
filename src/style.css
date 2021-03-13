@@ -5,3 +5,7 @@
 .red {
   background-color: rgb(216, 70, 77);
 }
+
+.no-display {
+  display: none;
+}

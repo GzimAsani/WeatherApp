@@ -22,4 +22,5 @@ const getWeather = () => {
 
   export {
     weather,
+    ui,
   }
