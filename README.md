@@ -26,6 +26,7 @@ This project is part of Microverse learning and the goal of this project was to 
 2. - [ ] Navigate to the directory where you want to add this repository
 3. - [ ] Run `git@github.com:GzimAsani/WeatherApp.git` or with HTTP`https://github.com/GzimAsani/WeatherApp.git` 
 4. - [ ] Run `npm install` to install the necessary modules
+5. - [ ] Go to your browser and open `dist/index.html` in the cloned repo.
 
 ## Author
 
