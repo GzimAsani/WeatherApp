@@ -1,6 +1,6 @@
 # WeatherApp
 
-This project is part of Microverse learning and the goal of this project was to demostrate learning and implementing the project by using  uses async, await and fetch to get data from external api. This is project is a weather app where the user can check the weather of any city he likes. Also this app displays a lot more information about the weather than just the tempereture. 
+This project is part of Microverse learning and the goal of this project was to demostrate learning and implementing the project by using  uses async, await and fetch to get data from external api. This is project is a weather app where the user can check the weather of any city he likes. Also this app pulls from OpenWeatherMap API- and displays a lot more information about the weather than just the tempereture. 
 
 ![img](./readme.png)
 
